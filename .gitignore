@@ -26,5 +26,4 @@ npm-debug.log
 .yo-rc.json
 README.md
 nodemon.json
-package.json
 tsconfig.json

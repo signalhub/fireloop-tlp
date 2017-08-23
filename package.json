@@ -1,0 +1,14 @@
+{
+  "name": "fireloop-tpl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "cd fireloop/ && npm install && cd webapp/ && npm install",
+    "kill-server": "sudo kill `sudo lsof -t -i:3000`",
+    "kill-client": "sudo kill `sudo lsof -t -i:4200`"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
