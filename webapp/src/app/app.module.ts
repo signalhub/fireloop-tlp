@@ -6,6 +6,7 @@ import { ChartModule } from "angular2-highcharts";
 import { ChartComponent } from './chart/chart.component';
 import { HighchartsStatic } from 'angular2-highcharts/dist/HighchartsService';
 
+
 export function highchartsFactory() {
   const hc = require('highcharts');
   const dd = require('highcharts/modules/drilldown');
