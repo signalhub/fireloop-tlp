@@ -11,5 +11,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "loopback-connector-mongodb": "^3.2.1"
+  }
 }
